@@ -1,0 +1,24 @@
+### JetBrains
+# Covers JetBrains IDEs: IntelliJ, PhpStorm
+
+## Directory-based project format:
+.idea/
+
+
+### Windows
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+
+### Composer
+/vendor/
+composer.lock
