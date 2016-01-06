@@ -2,7 +2,7 @@
 
 namespace ThomasSchulz\ClockUtil;
 
-class Clock
+class Clock implements ClockInterface
 {
     private static $currentTime = null;
 
