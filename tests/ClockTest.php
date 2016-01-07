@@ -18,8 +18,7 @@ class ClockTest extends \PHPUnit_Framework_TestCase
 //        $this->getMockForAbstractClass('\ThomasSchulz\ClockUtil\Clock', array(), '', true, true, true, array());
 //        $this->getMockForTrait('\ThomasSchulz\ClockUtil\Clock', array(), '', true, true, true, array());
 
-        $mock1 = $this->getMockBuilder(Clock::class)
-            ->getMock();
+        $mock1 = $this->getMockBuilder(Clock::class)->getMock();
         $mock1->expects($this->once())->method('test1')->willReturnCallback(function() { echo 'stubbed test1'; });
         $mock1->expects($this->once())->method('test2')->willReturnCallback(function() { echo 'stubbed test2'; });
         $mock1->test1('arg1');
