@@ -1,7 +1,7 @@
 {
     "name": "thomas-schulz/php-clock-util",
     "description": "Clock PHP class utility",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
